@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body{
+			padding:0px;
+			margin: 0px;
+			min-height: 100%;
+		}
+		.left {
+			background-color: #e9e4d4;
+			padding: 20px;
+			float: left;
+			height: 700px;
+			text-align: center;
+			width: 30%;
+			/*The width is 20%, by default*/
+		}
+
+		.right {
+			position: relative;
+			padding: 20px;
+			float: left;
+			width: 70%;
+			padding-top: 25%;
+			height: 700px;
+
+		}
+
+		#profile_picture {
+			border-radius: 50%;
+			width: 60%;
+
+		}
+		#back-img{
+			z-index: -1;
+			position: absolute;
+			bottom: 0px;
+			right: 0px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="left">
+
+		<img src="friday.jpg" id="profile_picture">
+		<h2>Jackson Ford</h2>
+		<a href="url">ui/ux designer</a><br>
+		<a href="url">Home</a>
+		<p>About</p>
+		<p>services</p>
+		<p>skills</p>
+		<p>Education</p>
+		<p>Experience</p>
+		<p>Work</p>
+		<p>Blog</p>
+		<p>Contact</p>
+	</div>
+	<div class="right">
+		<h2>I am a Designer</h2>
+		<p>100% html5 bootstrap mode by</p>
+		<a href="url">colorib.com</a>
+		<div id="back-img">
+			<img src="main.PNG">
+		</div>
+	</div>
+</body>
+<html>
